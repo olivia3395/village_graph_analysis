@@ -5,7 +5,7 @@ Graph-based machine learning system for village typology identification and
 development priority scoring, built to support evidence-based rural
 revitalization planning decisions in Ji County, Tianjin, China.
 
----
+
 
 ## Project Context
 
@@ -20,7 +20,6 @@ enabling targeted allocation of revitalization resources.
 - China Rural Household Survey (household-level socio-economic data)
 - Tianjin Infrastructure Database (roads, utilities, broadband)
 
----
 
 ## System Architecture
 
@@ -61,7 +60,7 @@ village_graph_analysis/
     └── test_all.py              # 40+ unit tests (12 groups)
 ```
 
----
+
 
 ## Village Typologies (Ji County Context)
 
@@ -92,7 +91,7 @@ The hybrid strategy ensures that two distant but similarly underdeveloped
 villages receive a meaningful connection, enabling clustering to identify
 their shared typology even when geographically separated.
 
----
+
 
 ## Clustering Methods
 
@@ -132,7 +131,7 @@ python scripts/report.py
 python tests/test_all.py
 ```
 
----
+
 
 ## Expected Output
 
@@ -170,7 +169,6 @@ python tests/test_all.py
   ...
 ```
 
----
 
 ## Composite Indicators
 
@@ -185,12 +183,5 @@ Computed from raw features during preprocessing:
 | **`development_index`** | weighted sum of above | — |
 | **`revitalization_need`** | 1 - development_index | — |
 
----
 
-## References
 
-- **Luxburg (2007)** — *A Tutorial on Spectral Clustering*
-- **Blondel et al. (2008)** — *Fast unfolding of communities in large networks* (Louvain)
-- **Grover & Leskovec (2016)** — *node2vec: Scalable Feature Learning for Networks*
-- **Girvan & Newman (2002)** — *Community structure in social and biological networks*
-- **China Rural Revitalization Strategy (2018)** — National policy framework
