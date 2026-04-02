@@ -92,7 +92,6 @@ villages receive a meaningful connection, enabling clustering to identify
 their shared typology even when geographically separated.
 
 
-
 ## Clustering Methods
 
 ### Spectral Clustering (primary)
@@ -111,7 +110,7 @@ Greedy modularity maximisation: Q = Σ_c [L_c/m - (d_c/2m)²]
 ### Node2Vec + K-Means
 Biased random walks (p, q parameters) → co-occurrence matrix → SVD embedding → k-means
 
----
+
 
 ## Quick Start
 
